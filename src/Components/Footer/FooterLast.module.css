@@ -1,0 +1,105 @@
+.footerlast_wrapper{
+    padding: 80px 13% !important;
+    background-color: #1e1e1e;
+    margin-top: 80px;
+}
+
+.top_conatiner{
+    display: flex;
+    width: 100%;
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2px solid rgba(255,255,255,0.1);
+
+}
+.top_conatiner .logo a{
+    font-size: 34px;
+    color: #fff;
+    font-weight: 700;
+}
+.top_conatiner .social{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.top_conatiner .social i{
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 18px;
+
+}
+.bottom_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+    padding-bottom: 30px;
+}
+.bottom_container .footerLink{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bottom_container .footerLink h3{
+    color: #fff;
+    font-size: 22px;
+} 
+.bottom_container .footerLink ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+.bottom_container .footerLink ul li a{
+    color: rgba(255,255,255,0.3);
+    font-weight: 300;
+    font-size: 14px;
+    transition: .6s;
+}
+.bottom_container .footerLink ul li:hover a{
+    color: #fff;
+}
+.bottom_container .footerLink p{
+    color: rgba(255,255,255,0.2);
+    font-weight: 300;
+    font-size: 14px;
+}
+.input_wrapper{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 20px;
+}
+.input_wrapper input{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width:900px) {
+    .bottom_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:500px) {
+    .bottom_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom_container .footerLink{
+        align-items: center;
+        text-align: center;
+    }
+    .top_conatiner{
+        flex-direction: column;
+        gap: 50px;
+    }
+}

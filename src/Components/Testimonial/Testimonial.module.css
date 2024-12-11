@@ -1,0 +1,33 @@
+.swiper{
+    width: 100% !important;
+}
+.test_wrapper{
+    background-color: #ebf3ff;
+    padding: 80px 13% !important;
+
+}
+.test_container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6fafe;
+    margin-top: 80px;
+    gap: 15px;
+    border: 0.2px solid #c1dafe;
+    border-radius: 12px;
+}
+.test_container .test_profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.test_container .test_profile img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.test_container p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1e1e1e;
+}
